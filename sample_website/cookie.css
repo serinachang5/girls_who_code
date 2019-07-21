@@ -1,0 +1,36 @@
+body {
+  background-color: mintcream;
+  color: teal;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 10px 30px 10px 30px; /* top, right, bottom, left */
+}
+
+h1 {
+  font-size: 40px;
+  font-variant: small-caps;
+}
+
+a {
+  color: lightseagreen;
+}
+
+div {
+  border-bottom: 1px dashed teal;
+}
+
+#bio {
+  border-bottom: 2px solid teal;
+}
+
+.past {
+  height: 250px;
+}
+
+.present {
+  height: 300px;
+}
+
+.caption {
+  font-size: 12px;
+  font-style: italic;;
+}
