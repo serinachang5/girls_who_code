@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;  /* horizonal center */
+  align-items: center;  /* vertical center */
+  height: 100vh;  /* vh = 1% of the height of the viewport */
+}
+
+.slide b {  /* any <b> element inside of an element with class "slide" */
+  font-family: sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.slide img {  /* any <img> element inside of an element with class "slide" */
+  height: 50vh;
+  padding-left: 20px;
+}
+
+#slide1 {
+  background: lightblue;
+}
+
+#slide2 {
+  background: lightpink;
+}
+
+#slide3 {
+  background: lightgreen;
+}
